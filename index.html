@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Harigaran R</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                        </li>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">
+                              Services
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Harigaran R</h1>
+                <h4 class="sub-heading">
+                    Im a MCA Student Learning front end development
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <button class="btn common-btn">Hire Me</button>
+                <button class="btn ghost-btn">Get Resume</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h1 class="my-heading">About Me</h1>
+            <p class="lead-para">
+                Hello , Im Harigaran and im from ooty , Currently 
+                im residing in coimbatore for education purpose.
+                im from a nuclear family with consisting of 3 members.
+                Im doing MCA in KG College of atrs and science with an aggregate of 80%.
+                During my academic journey i have built a strong skillset in html,css and javascript.
+                I have done 1 month internship at geek base technology in Web Development.
+                My goal is to acquire more knowlwdge and contribute to the companys growth.
+              </p>
+        </div>
+        <div class="about-image">
+            <img src="" alt="About Image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center">My Services</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Frontend Development</h3>
+                        <p class="small-para">
+                          A front-end developer builds the front-end portion of
+                           websites and web applications—the part users see and interact with. 
+                           A front-end developer creates websites and applications using
+                          web languages such as HTML, CSS, and JavaScript 
+                           that allow users to access and interact with the site or app.
+                        </p>
+                        
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone">
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10">
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p class="contact-text">harigaran925@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 9786260723</p>
+                </div>
+              
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">The nilgiris</p>
+                    <p>Beragani , kotagiri.</p>
+                    <p>Tamilnadu ,india. </p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+    <script src="script.js"></script>
+</body>
+</html>
